@@ -1,0 +1,32 @@
+body{
+    font-family: monospace, sans-serif;
+
+}
+div{
+    width:100vw;
+    height:200px;
+    margin: 0 auto;
+}
+div p, div h1, div h2{
+    width:50%;
+    height:50%;
+    margin: auto;
+
+}
+div :nth-child(2n-1){
+    color: blue;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+div :nth-child(1){
+    height: 40px;
+}
+div :nth-child(2){
+    height: 30px;
+}
+div :nth-child(3){
+    font-size: 2rem;
+}
+div :nth-child(4){
+    line-height: 2rem;
+}
